@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .container {
+    background-color: #f5fafd;
+    width: 100vw;
+  }
+  a {
+    text-decoration: none;
+  }
+  .secao1 {
+    margin: 0 2.9rem 0 2.9rem;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+  }
+  header {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .blocoLogo {
+    display: flex;
+  }
+  .logo {
+    height: 2.9rem;
+    width: auto;
+  }
+
+  .colegio {
+    align-self: center;
+    font-family: "Kanit", "sans-serif";
+    line-height: 1.2rem;
+    font-size: 1.29rem;
+  }
+  .nomeColegio {
+    color: #2d95b5;
+  }
+  .nomeEvolucao {
+    color: #f74b50;
+  }
+  a:link {
+    color: #2d95b5;
+  }
+  nav {
+    color: #2d95b5;
+    margin-left: auto;
+    align-self: center;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  a:nth-child(-n + 5) {
+    margin-left: 1.4rem;
+  }
+  .login {
+    padding: 0.5rem 1.4rem;
+    border: 1px solid #2d95b5;
+    border-radius: 1rem;
+  }
+
+  .conteudo {
+    display: flex;
+    align-self: flex-end;
+    margin-top: auto;
+  }
+  .texto {
+    align-self: center;
+  }
+  .titulo1 {
+    color: #f74b50;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2.9rem;
+    font-weight: 600;
+  }
+  .titulo2 {
+    color: #2d95b5;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2.9rem;
+    font-weight: 600;
+  }
+  .subTitulo {
+    color: #2d95b5;
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  #seMatricular {
+    display: inline-block;
+    margin: 1.5rem 0 0 0;
+    color: #f5fafd;
+    background-color: #f74b50;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.6rem;
+    font-family: "Ubuntu", "sans-serif";
+  }
+  .secao2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 2.9rem;
+  }
+
+  .caracteristica1 {
+    display: flex;
+  }
+  .caracteristica2 {
+    display: flex;
+    margin-left: 20rem;
+  }
+  .txtCaracteristica {
+    color: #2d95b5;
+    font-family: "Ubuntu", "sans-serif";
+    align-self: center;
+    font-size: 1rem;
+    margin-left: 0.8rem;
+  }
+
+  .section3 {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin-top: 6rem;
+  }
+  .flow {
+    display: flex;
+    gap: 10rem;
+  }
+  .card {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1.2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imge {
+    margin-top: 2.9rem;
+    height: 6rem;
+    width: auto;
+  }
+
+  .numero {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2rem;
+    font-weight: 500;
+    color: #2d95b5;
+    margin-top: 2rem;
+  }
+  .mais {
+    color: #f74b50;
+  }
+
+  .descricao {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #2d95b5;
+    margin-top: 0.4rem;
+  }
+  .destaque {
+    color: #f74b50;
+  }
+
+  .section4 {
+    display: flex;
+    margin: 15rem 0 15rem 0;
+  }
+
+  .caixa {
+    margin-left: 2.9rem;
+    width: 50vw;
+  }
+
+  .tituloEvolucao {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2.8rem;
+    color: #f74b50;
+    margin-top: 1rem;
+  }
+
+  .historia {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 1.4rem;
+    color: #2d95b5;
+    margin-top: 1.4rem;
+    font-weight: 420;
+  }
+  .imgeLamp {
+    margin-left: 12.4rem;
+  }
+
+  .section5 {
+    background-color: #f5fafd;
+    height: 35rem;
+    width: 100vw;
+    padding: 2.9rem 0 4rem 0;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
+
+  .tituloDepoimento {
+    font-size: 2.6rem;
+    font-family: "Ubuntu", "sans-serif";
+    font-weight: 500;
+    text-align: center;
+    color: #f74b50;
+  }
+
+  .containerDepoimento {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  .cardDepoimento {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 20rem;
+    height: 24rem;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  .txtDepoimento,
+  .txtDepoimento1 {
+    width: 15rem;
+    margin: 2.9rem auto;
+    font-size: 1.2rem;
+    font-family: "Ubuntu", "sans-serif";
+    color: #2d95b5;
+    text-align: center;
+  }
+
+  .blockPessoa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foto {
+    height: 2rem;
+    width: auto;
+  }
+  .nome {
+    font-size: 1rem;
+    font-family: "Ubuntu", "sans-serif";
+    color: #1b1b1b;
+    font-weight: 600;
+    margin-left: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100vw;
+    height: 90vh;
+    background-color: #f5fafd;
+  }
+
+  .blocoLogo {
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    margin-top: 20rem;
+    height: 26rem;
+  }
+  .colegio {
+    display: none;
+  }
+  nav,
+  .subTitulo,
+  .pessoas {
+    display: none;
+  }
+
+  .conteudo {
+    text-align: center;
+  }
+  .titulo1 {
+    font-size: 6rem;
+    font-family: "Ubuntu", "sans-serif";
+    color: #f74b50;
+    font-weight: 600;
+    margin-top: 20rem;
+  }
+  .titulo2 {
+    font-size: 4rem;
+    font-family: "Ubuntu", "sans-serif";
+    color: #2d95b5;
+    font-weight: 600;
+    margin-bottom: 10rem;
+  }
+  .seMatricular {
+    background-color: #f74b50;
+    font-family: "Ubuntu", "sans-serif";
+    padding: 1.6rem 4.4rem;
+    font-size: 4.2rem;
+    color: white;
+    border-radius: 2.8rem;
+  }
+
+  .secao2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    width: 100vw;
+    margin-top: 4rem;
+  }
+  .Pc {
+    width: 30%;
+  }
+  .infra {
+    width: 30%;
+  }
+  .caracteristica1,
+  .caracteristica2 {
+    display: flex;
+    align-items: center;
+  }
+  .txtCaracteristica {
+    width: 80vw;
+    margin-left: 2rem;
+    font-size: 3rem;
+    font-family: "Ubuntu", "sans-serif";
+    color: #2d95b5;
+  }
+  .section3 {
+    gap: 4rem;
+    width: 100vw;
+    overflow-x: auto;
+    margin-top: 12rem;
+  }
+  .flow {
+    width: 100vw;
+    overflow: auto;
+  }
+
+  .card {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 6rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fdfdfd;
+  }
+  .card1 {
+    margin-left: 10rem;
+  }
+  .card3 {
+    margin-right: 10rem;
+  }
+
+  .imge {
+    height: 15rem;
+    margin-top: 4rem;
+  }
+  .numero {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 6rem;
+    font-weight: 500;
+    color: #2d95b5;
+    margin-top: 2rem;
+  }
+  .mais {
+    color: #f74b50;
+  }
+
+  .descricao {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 3.8rem;
+    font-weight: 500;
+    color: #2d95b5;
+    margin-top: 0.4rem;
+  }
+  .destaque {
+    color: #f74b50;
+  }
+
+  .flow {
+    display: flex;
+    width: fit-content;
+    gap: 4rem;
+  }
+  .section4 {
+    width: 100vw;
+  }
+  .caixa {
+    margin-top: 10rem;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .tituloEvolucao {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 8rem;
+    color: #f74b50;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .historia {
+    font-family: "Ubuntu", "sans-serif";
+    font-size: 2.6rem;
+    color: #2d95b5;
+    margin-top: 4rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .imgeLamp {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10rem;
+    width: 30%;
+  }
+  .section5 {
+    margin-top: 15rem;
+    background-color: #f5fafd;
+    height: fit-content;
+    width: 100vw;
+    padding: 2.9rem 0 4rem 0;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
+  .tituloDepoimento {
+    font-size: 8rem;
+    font-family: "Ubuntu", "sans-serif";
+    font-weight: 500;
+    text-align: center;
+    color: #f74b50;
+  }
+
+  .containerDepoimento {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    justify-content: center;
+    margin-top: 15rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardDepoimento {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 46rem;
+    height: fit-content;
+    border-radius: 4rem;
+    background-color: white;
+    padding-bottom: 4rem;
+  }
+  .txtDepoimento,
+  .txtDepoimento1 {
+    width: 38rem;
+    margin: 2.9rem auto;
+    font-size: 2rem;
+    font-family: "Ubuntu", "sans-serif";
+    color: #2d95b5;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .blockPessoa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foto {
+    height: 4rem;
+    width: auto;
+  }
+  .nome {
+    font-size: 2.9rem;
+    font-family: "Ubuntu", "sans-serif";
+    color: #1b1b1b;
+    font-weight: 600;
+    margin-left: 0.8rem;
+  }
+}
